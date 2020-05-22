@@ -10,7 +10,7 @@
 		B342E7AB24774F8E00A81154 /* TestPDFVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B342E7AA24774F8E00A81154 /* TestPDFVC.swift */; };
 		B342E7AD2477755200A81154 /* AnotherPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = B342E7AC2477755200A81154 /* AnotherPDF.swift */; };
 		B342E7AF2477777600A81154 /* UIBezierPath+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B342E7AE2477777600A81154 /* UIBezierPath+.swift */; };
-		B342E7B12477799600A81154 /* Girl.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B342E7B02477799600A81154 /* Girl.pdf */; };
+		B342E7B324777A1500A81154 /* Girl.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B342E7B224777A1500A81154 /* Girl.pdf */; };
 		B3CCD95C2476BECA000D53ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD95B2476BECA000D53ED /* AppDelegate.swift */; };
 		B3CCD95E2476BECA000D53ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD95D2476BECA000D53ED /* SceneDelegate.swift */; };
 		B3CCD9602476BECA000D53ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD95F2476BECA000D53ED /* ViewController.swift */; };
@@ -43,7 +43,7 @@
 		B342E7AA24774F8E00A81154 /* TestPDFVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPDFVC.swift; sourceTree = "<group>"; };
 		B342E7AC2477755200A81154 /* AnotherPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherPDF.swift; sourceTree = "<group>"; };
 		B342E7AE2477777600A81154 /* UIBezierPath+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+.swift"; sourceTree = "<group>"; };
-		B342E7B02477799600A81154 /* Girl.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Girl.pdf; sourceTree = "<group>"; };
+		B342E7B224777A1500A81154 /* Girl.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Girl.pdf; sourceTree = "<group>"; };
 		B3CCD9582476BECA000D53ED /* NFCReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CCD95B2476BECA000D53ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3CCD95D2476BECA000D53ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,9 +112,9 @@
 			children = (
 				B3CCD98B2476BF0C000D53ED /* NFCReader.entitlements */,
 				B3CCD95B2476BECA000D53ED /* AppDelegate.swift */,
-				B342E7B02477799600A81154 /* Girl.pdf */,
 				B3CCD95D2476BECA000D53ED /* SceneDelegate.swift */,
 				B342E7AE2477777600A81154 /* UIBezierPath+.swift */,
+				B342E7B224777A1500A81154 /* Girl.pdf */,
 				B3CCD95F2476BECA000D53ED /* ViewController.swift */,
 				B3CCD98C2476C31B000D53ED /* TestNSCTagReader.swift */,
 				B342E7AA24774F8E00A81154 /* TestPDFVC.swift */,
@@ -250,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3CCD9682476BECC000D53ED /* LaunchScreen.storyboard in Resources */,
-				B342E7B12477799600A81154 /* Girl.pdf in Resources */,
+				B342E7B324777A1500A81154 /* Girl.pdf in Resources */,
 				B3CCD9652476BECC000D53ED /* Assets.xcassets in Resources */,
 				B3CCD9632476BECA000D53ED /* Main.storyboard in Resources */,
 			);
