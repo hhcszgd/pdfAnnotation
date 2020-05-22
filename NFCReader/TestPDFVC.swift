@@ -40,6 +40,7 @@ class TestPDFVC: UIViewController {
         if let touch = touches.first {
             let position = touch.location(in: pdfView)
 //            signingPath = UIBezierPath()
+            signingPath.removeAllPoints()
             signingPath.move(to: pdfView.convert(position, to: pdfView.page(for: position, nearest: true)!))
             annotationAdded = false
             lastPoint = pdfView.convert(position, to: pdfView.page(for: position, nearest: true)!)
